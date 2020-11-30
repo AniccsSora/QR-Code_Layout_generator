@@ -1,5 +1,5 @@
 # What is this?
-![](https://i.imgur.com/9kDCyjR.gif)
+![](./demo.gif)
 
 ## Not a QR Code Generator!!
 ^^
