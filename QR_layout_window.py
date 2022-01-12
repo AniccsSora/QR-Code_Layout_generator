@@ -351,6 +351,10 @@ class QRLayoutGeneratorWindow(QWidget):
             'divide_bold': self.__divide_bold,
             'len__padding_module': self.__padding_module_size,
         }
+
+        if self.__version == 1:
+            kwargs["c_version_zone"] = kwargs['c_data_zone']
+
         qr_lay_generator = QR_layout.qrBan(**kwargs)
         qr_lay = qr_lay_generator.get_layout()
 
